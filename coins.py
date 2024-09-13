@@ -12,7 +12,6 @@ def cointoss():
         elif x==1:  #if it is tails
             i=0     #reset the count of flips in row
             j+=1    #increment the total count of flips
-        x=None      #reset x so that no value can possible carry over
     f.write(str(j)+"\n")    #write the number of flips to a file
     return j        #return the number of flips it took
 
